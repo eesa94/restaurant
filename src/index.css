@@ -66,6 +66,18 @@ a:hover {
   letter-spacing: 1px;
 }
 
+.brand-tagline {
+  font-size: 1.8rem;
+  color: black;
+}
+
+.underline {
+  background-color: black;
+  height: 2px;
+  width: 50%;
+  float: right;
+}
+
 .link-list {
   position: relative;
   bottom: 100px;
@@ -81,7 +93,7 @@ a:hover {
 }
 
 .link:hover {
-  color: #f5e944;
+  color: #f5dd44;
 }
 
 
@@ -101,14 +113,6 @@ a:hover {
 
 .carousel-tint {
   background-color: rgba(0, 0, 0, 0.30);
-}
-
-.carousel-indicators .active {
-  background-color: #ffc107;
-}
-
-.carousel-indicators li {
-  background-color: #fff;
 }
 
 
@@ -139,5 +143,5 @@ a:hover {
   padding: 10px 5px;
   font-size: 4rem;
   color: #17a2b8;
-  background-color: #f5dd44
+  background-color: #f5dd44;
 }
