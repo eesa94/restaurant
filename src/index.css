@@ -33,6 +33,11 @@ a:hover {
   font-weight: 300;
 }
 
+.kodchasan-5 {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 500;
+}
+
 .kodchasan-7 {
   font-family: 'Kodchasan', sans-serif;
   font-weight: 700;
@@ -122,4 +127,17 @@ a:hover {
 
 .carousel-text {
   font-size: 2rem;
+}
+
+
+/* Menu component */
+.menu-header {
+  position: relative;
+  bottom: 35px;
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  font-size: 4rem;
+  color: #17a2b8;
+  background-color: #f5dd44
 }

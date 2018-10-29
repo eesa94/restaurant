@@ -1,10 +1,20 @@
 import React from 'react';
+import bibimbap from '../img/bibimbap.jpg'
 
 const Menu = () => {
+    const banner = {
+        backgroundImage: `url(${bibimbap})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        height: '400px',
+        width: '100%'
+    }
+
     return (
-        <div className="container section-container">
-            <h4 className="center">Menu</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi modi vitae reprehenderit, accusantium rem voluptatem quo quaerat suscipit, quos itaque nostrum ab maxime perferendis totam illum placeat deserunt adipisci?</p>
+        <div className="section-container menu">
+            <div className="menu-banner" style={banner}></div>
+            <h1 className="section-header menu-header text-center kodchasan-5">Our Menu</h1>
         </div>
     )
 }
