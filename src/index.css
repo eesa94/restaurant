@@ -57,7 +57,7 @@ a:hover {
 }
 
 .brand {
-  font-size: 4rem;
+  font-size: 6rem;
   letter-spacing: 1.5px;
 }
 
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .link {
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
   transition: 0.3s;
 }
@@ -88,6 +88,14 @@ a:hover {
 
 .carousel-item {
   height: 100%;
+}
+
+.carousel-fade .carousel-item {
+  transition-duration: 3s;
+}
+
+.carousel-overlay {
+  background-color: rgba(0, 0, 0, 0.30);
 }
 
 .carousel-indicators .active {

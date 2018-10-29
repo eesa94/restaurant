@@ -4,7 +4,7 @@ import { Link, NavLink, withRouter } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className="navigation text-center d-flex flex-column align-items-center justify-content-between">
-            <a href="/" className="brand kodchasan-7">Sage of Empires</a>
+            <a href="/" className="brand kodchasan-7 text-uppercase">Wok It.</a>
             <ul className="link-list">
                 <li><Link to="/" className="link">Home</Link></li>
                 <li><NavLink to="/about" className="link">About</NavLink></li>
