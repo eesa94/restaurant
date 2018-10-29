@@ -28,6 +28,21 @@ a:hover {
   width: 78vw;
 }
 
+.section-header {
+  position: relative;
+  bottom: 35px;
+  width: 220px;
+  margin: 0 auto;
+  padding: 8px 5px;
+  font-size: 3.5rem;
+  color: #17a2b8;
+  background-color: #f5dd44;
+}
+
+.tint {
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
 .kodchasan-3 {
   font-family: 'Kodchasan', sans-serif;
   font-weight: 300;
@@ -111,10 +126,6 @@ a:hover {
   transition-duration: 3s;
 }
 
-.carousel-tint {
-  background-color: rgba(0, 0, 0, 0.30);
-}
-
 
 /* Home component */
 .carousel-overlay {
@@ -134,14 +145,3 @@ a:hover {
 }
 
 
-/* Menu component */
-.menu-header {
-  position: relative;
-  bottom: 35px;
-  width: 250px;
-  margin: 0 auto;
-  padding: 10px 5px;
-  font-size: 4rem;
-  color: #17a2b8;
-  background-color: #f5dd44;
-}

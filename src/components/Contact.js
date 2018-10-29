@@ -1,10 +1,22 @@
 import React from 'react';
+import bowl from '../img/bowl.jpg'
 
 const Contact = () => {
+    const banner = {
+        backgroundImage: `url(${bowl})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        height: '400px',
+        width: '100%'
+    }
+
     return (
-        <div className="container section-container">
-            <h4 className="center">Contact</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi modi vitae reprehenderit, accusantium rem voluptatem quo quaerat suscipit, quos itaque nostrum ab maxime perferendis totam illum placeat deserunt adipisci?</p>
+        <div className="section-container contact">
+            <div className="contact-banner" style={banner}>
+                <div className="tint h-100 w-100"></div>
+            </div>
+            <h1 className="section-header contact-header text-center kodchasan-5">Contact</h1>
         </div>
     )
 }
