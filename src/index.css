@@ -1,0 +1,81 @@
+html, body {
+  min-height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white
+}
+
+.section-container {
+  margin-left: 22vw;
+}
+
+.kodchasan-3 {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 300;
+}
+
+.kodchasan-7 {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 700;
+}
+
+.orbitron-7 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+}
+
+
+
+/* Navbar component */
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 22vw;
+  padding: 40px 10px 100px;
+  background-color: #2db7c3;
+}
+
+.brand {
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+}
+
+.link-list {
+  position: relative;
+  bottom: 100px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  font-size: 3rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #f5e944;
+}
+
+
+/* Home component */
