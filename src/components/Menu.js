@@ -24,7 +24,7 @@ const Menu = () => {
                 <h2 className="menu-sub-header kodchasan-7">Appetisers</h2>
                 <div className="header-underline"></div>
                 <div className="row menu-row no-gutters">
-                    <div className="col-lg-4 offset-lg-3">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
                         <p className="dish-name kodchasan-3"><strong>Shrimp Tempura</strong></p>
                         <p className="dish-desc">Shrimp dipped in Tempura batter</p>
                     </div>
@@ -33,7 +33,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="row menu-row no-gutters">
-                    <div className="col-lg-4 offset-lg-3">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
                         <p className="dish-name kodchasan-3"><strong>Pan-Fried Dumplings</strong></p>
                         <p className="dish-desc">Korean dumplings, pan-fried and filled with vegetables</p>
                     </div>
@@ -42,7 +42,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="row menu-row no-gutters">
-                    <div className="col-lg-4 offset-lg-3">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
                         <p className="dish-name kodchasan-3"><strong>Chicken Wings</strong></p>
                         <p className="dish-desc">Korean-style spicy wings</p>
                     </div>
@@ -51,7 +51,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="row menu-row no-gutters">
-                    <div className="col-lg-4 offset-lg-3">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
                         <p className="dish-name kodchasan-3"><strong>Kimchi Noodle Soup</strong></p>
                         <p className="dish-desc">Classic Kimchi with Udon noodle soup</p>
                     </div>
@@ -66,7 +66,7 @@ const Menu = () => {
                 <h2 className="menu-sub-header kodchasan-7">Noodles</h2>
                 <div className="header-underline"></div>
                 <div className="row menu-row no-gutters">
-                    <div className="col-lg-4 offset-lg-3">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
                         <p className="dish-name kodchasan-3"><strong>Spicy Cold Noodles</strong></p>
                         <p className="dish-desc">Sweet and sour spicy noodles topped with cucumber, radish, and boiled egg</p>
                     </div>
@@ -75,7 +75,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="row menu-row no-gutters">
-                    <div className="col-lg-4 offset-lg-3">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
                         <p className="dish-name kodchasan-3"><strong>Japchae</strong></p>
                         <p className="dish-desc">Vermicelli noodles, sauteed with seasoned spinach, mushroom, carrot, onion, marinated beef</p>
                     </div>
@@ -84,7 +84,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="row menu-row no-gutters">
-                    <div className="col-lg-4 offset-lg-3">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
                         <p className="dish-name kodchasan-3"><strong>Spicy Fish Noodles</strong></p>
                         <p className="dish-desc">Sweet and sour spicy noodles topped with marinated skate fish, cucumber, radish, and boiled egg</p>
                     </div>

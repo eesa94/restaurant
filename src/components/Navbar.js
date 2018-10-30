@@ -3,7 +3,7 @@ import { Link, NavLink, withRouter } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="navigation text-center d-flex flex-column align-items-center justify-content-between">
+        <nav className="navigation text-center d-none d-lg-flex flex-column align-items-center justify-content-between">
             <div>
                 <a href="/" className="brand kodchasan-7 text-uppercase">Seoul Food.</a>
                 <p className="brand-tagline text-right font-italic kodchasan-5">Taste Korea</p>

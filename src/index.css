@@ -23,9 +23,8 @@ a:hover {
 }
 
 .section-container {
-  margin-left: 22vw;
   height: 100vh;
-  width: 78vw;
+  width: 100%;
 }
 
 .section-header {
@@ -139,7 +138,8 @@ a:hover {
 .carousel-overlay {
   position: absolute;
   top: 25%;
-  left: 30%;
+  left: 20%;
+  right: 20%;
 }
 
 .carousel-header {
@@ -175,14 +175,42 @@ a:hover {
 
 .menu-row {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .dish-name {
   font-size: 2.5rem;
 }
 
+.dish-desc {
+  margin-bottom: 10px;
+}
+
+.dish-price {
+  margin: 0;
+}
+
 .dish-desc,
 .dish-price {
   font-size: 2rem;
-  margin: 0;
 }
+
+
+/* Media Queries */
+@media (min-width: 992px) {
+  .section-container {
+    margin-left: 22vw;
+    width: 78vw;
+  }
+
+  .carousel-overlay {
+    top: 25%;
+    left: 30%;  
+  }
+
+  .menu-row {
+    text-align: left;
+  }
+
+}
+
