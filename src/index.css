@@ -41,6 +41,10 @@ a:hover {
 }
 
 .tint {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(43, 43, 43, 0.6), rgba(82, 82, 82, 0.5), rgba(124, 124, 124, 0.2), rgba(170, 170, 170, 0.1));
+}
+
+.banner-tint {
   background-color: rgba(0, 0, 0, 0.30);
 }
 
