@@ -32,10 +32,11 @@ a:hover {
   position: relative;
   bottom: 35px;
   width: 220px;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   padding: 8px 5px;
   font-size: 3.5rem;
-  color: #17a2b8;
+  /* color: #17a2b8; */
+  color: black;
   background-color: #f5dd44;
 }
 
@@ -63,6 +64,9 @@ a:hover {
   font-weight: 700;
 }
 
+.no-margin {
+  margin: 0;
+}
 
 
 /* Navbar component */
@@ -145,3 +149,23 @@ a:hover {
 }
 
 
+/* Menu component */
+.menu-sub-header {
+  font-size: 3rem;
+  padding-left: 200px;
+  margin-bottom: 40px;
+}
+
+.menu-row {
+  margin-bottom: 30px;
+}
+
+.dish-name {
+  font-size: 2.5rem;
+}
+
+.dish-desc,
+.dish-price {
+  font-size: 2rem;
+  margin: 0;
+}
