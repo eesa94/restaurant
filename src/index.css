@@ -150,10 +150,23 @@ a:hover {
 
 
 /* Menu component */
+.header-underline {
+  position: relative;
+  bottom: 14px;
+  height: 4px;
+  background-color: #f5dd44;
+  width: 200px;
+  margin-bottom: 40px;
+  margin: 0 0 40px 200px;
+}
+
+.menu-section {
+  margin-bottom: 60px;
+}
+
 .menu-sub-header {
   font-size: 3rem;
   padding-left: 200px;
-  margin-bottom: 40px;
 }
 
 .menu-row {
