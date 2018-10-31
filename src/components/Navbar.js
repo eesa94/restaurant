@@ -15,6 +15,7 @@ const Navbar = () => {
                 <li><NavLink to="/menu" className="link">Menu</NavLink></li>
                 <li><NavLink to="/contact" className="link">Contact</NavLink></li>
             </ul>
+            <p className="copyright kodchasan-5">Copyright &copy; Seoul Food. 2018</p>
         </nav>
     )
 }

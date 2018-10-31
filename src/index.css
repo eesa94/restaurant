@@ -22,6 +22,10 @@ a:hover {
   color: white
 }
 
+p {
+  font-size: 1.8rem;
+}
+
 .section-container {
   min-height: 100vh;
   width: 100%;
@@ -66,6 +70,10 @@ a:hover {
   margin: 0;
 }
 
+.mb3 {
+  margin-bottom: 30px;
+}
+
 
 /* Navbar component */
 .navigation {
@@ -74,7 +82,7 @@ a:hover {
   left: 0;
   height: 100vh;
   width: 22vw;
-  padding: 40px 10px 100px;
+  padding: 40px 10px 20px;
   background-color: #2db7c3;
 }
 
@@ -97,7 +105,7 @@ a:hover {
 
 .link-list {
   position: relative;
-  bottom: 100px;
+  top: 50px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -111,6 +119,10 @@ a:hover {
 
 .link:hover {
   color: #f5dd44;
+}
+
+.copyright {
+  font-size: 1.6rem;
 }
 
 
@@ -151,6 +163,7 @@ a:hover {
 
 .carousel-text {
   font-size: 2rem;
+  max-width: 700px;
 }
 
 
@@ -213,6 +226,5 @@ a:hover {
   .menu-row {
     text-align: left;
   }
-
 }
 

@@ -5,7 +5,7 @@ const Menu = () => {
     const banner = {
         backgroundImage: `url(${bibimbap})`,
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: '100px -350px',
+        backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
         height: '400px',
