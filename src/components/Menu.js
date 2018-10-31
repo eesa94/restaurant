@@ -20,8 +20,8 @@ const Menu = () => {
             <h1 className="section-header text-center kodchasan-5">Our Menu</h1>
 
             {/* Appetisers */}
-            <div className="menu-section">
-                <h2 className="menu-sub-header kodchasan-7">Appetisers</h2>
+            <div className="component-section">
+                <h2 className="sub-header kodchasan-7">Appetisers</h2>
                 <div className="header-underline"></div>
                 <div className="row menu-row no-gutters">
                     <div className="col-10 offset-1 col-lg-4 offset-lg-3">
@@ -62,8 +62,8 @@ const Menu = () => {
             </div>
 
             {/* Noodles */}
-            <div className="menu-section">
-                <h2 className="menu-sub-header kodchasan-7">Noodles</h2>
+            <div className="component-section">
+                <h2 className="sub-header kodchasan-7">Noodles</h2>
                 <div className="header-underline"></div>
                 <div className="row menu-row no-gutters">
                     <div className="col-10 offset-1 col-lg-4 offset-lg-3">
@@ -95,8 +95,8 @@ const Menu = () => {
             </div>
 
             {/* Barbecue */}
-            <div className="menu-section">
-                <h2 className="menu-sub-header kodchasan-7">Korean BBQ</h2>
+            <div className="component-section">
+                <h2 className="sub-header kodchasan-7">Korean BBQ</h2>
                 <div className="header-underline"></div>
                 <div className="row menu-row no-gutters">
                     <div className="col-10 offset-1 col-lg-4 offset-lg-3">
@@ -137,8 +137,8 @@ const Menu = () => {
             </div>
 
             {/* Specials */}
-            <div className="menu-section">
-                <h2 className="menu-sub-header kodchasan-7">Specials</h2>
+            <div className="component-section">
+                <h2 className="sub-header kodchasan-7">Specials</h2>
                 <div className="header-underline"></div>
                 <div className="row menu-row no-gutters">
                     <div className="col-10 offset-1 col-lg-4 offset-lg-3">

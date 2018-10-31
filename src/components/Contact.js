@@ -7,6 +7,7 @@ const Contact = () => {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
         height: '400px',
         width: '100%'
     }
