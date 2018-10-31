@@ -1,5 +1,6 @@
 import React from 'react';
 import bibimbap from '../img/bibimbap.jpg'
+import Footer from './Footer'
 
 const Menu = () => {
     const banner = {
@@ -178,6 +179,7 @@ const Menu = () => {
                 </div>
             </div>
 
+            <Footer />
         </div>
 
     )

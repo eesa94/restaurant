@@ -211,10 +211,19 @@ p {
 }
 
 
+/* Footer component */
+footer {
+  height: 150px;
+  padding: 0 15px;
+  background-color: #2db7c3;
+}
+
+
 /* Media Queries */
 @media (min-width: 992px) {
   .section-container,
-  .home-container {
+  .home-container,
+  .footer {
     margin-left: 22vw;
     width: 78vw;
   }
@@ -237,4 +246,6 @@ p {
   }
     
 }
+
+
 

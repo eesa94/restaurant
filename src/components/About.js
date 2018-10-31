@@ -1,5 +1,6 @@
 import React from 'react';
 import chefs from '../img/chefs.jpg'
+import Footer from './Footer'
 
 const About = () => {
     const banner = {
@@ -7,6 +8,7 @@ const About = () => {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
         height: '400px',
         width: '100%'
     }
@@ -34,13 +36,15 @@ const About = () => {
                 <div className="header-underline"></div>
                 <div className="row no-gutters">
                     <div className="col-10 offset-1 col-lg-8 offset-lg-2">
+                        <p className="kodchasan-3">We like to keep things simple but effective.</p>
+                        <p className="kodchasan-3">
+                        <span className="brand-tagline font-italic kodchasan-5">Taste Korea</span> is our motto. The entire Seoul Food. brand is centered around providing the most authentic taste of Korea that we possibly can. Everything from our ingredients to the restaurant environment is carefully designed to ensure that customers enjoy their experience.
+                        </p>
                         <p className="kodchasan-3"></p>
-                        <p className="kodchasan-3"></p>
-                        <p className="kodchasan-3 mb3"></p>
-                        <p className="brand-tagline font-italic kodchasan-5">Taste Korea</p>
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

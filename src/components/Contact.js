@@ -1,5 +1,6 @@
 import React from 'react';
 import bowl from '../img/bowl.jpg'
+import Footer from './Footer'
 
 const Contact = () => {
     const banner = {
@@ -18,6 +19,8 @@ const Contact = () => {
                 <div className="banner-tint h-100 w-100"></div>
             </div>
             <h1 className="section-header contact-header text-center kodchasan-5">Contact</h1>
+
+            <Footer />
         </div>
     )
 }
