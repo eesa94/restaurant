@@ -23,20 +23,20 @@ a:hover {
 }
 
 .section-container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
 .section-header {
-  position: relative;
-  bottom: 35px;
+  position: sticky;
+  top: 0px;
   width: 220px;
-  margin: 0 auto 60px;
+  margin: -30px auto 60px;
   padding: 8px 5px;
   font-size: 3.5rem;
-  /* color: #17a2b8; */
   color: black;
   background-color: #f5dd44;
+  z-index: 5;
 }
 
 .tint {
@@ -59,11 +59,6 @@ a:hover {
 
 .kodchasan-7 {
   font-family: 'Kodchasan', sans-serif;
-  font-weight: 700;
-}
-
-.orbitron-7 {
-  font-family: 'Orbitron', sans-serif;
   font-weight: 700;
 }
 
@@ -135,6 +130,12 @@ a:hover {
 
 
 /* Home component */
+.home-container {
+  height: 100vh;
+  width: 100%;
+}
+
+
 .carousel-overlay {
   position: absolute;
   top: 25%;
@@ -198,7 +199,8 @@ a:hover {
 
 /* Media Queries */
 @media (min-width: 992px) {
-  .section-container {
+  .section-container,
+  .home-container {
     margin-left: 22vw;
     width: 78vw;
   }

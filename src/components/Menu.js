@@ -94,6 +94,21 @@ const Menu = () => {
                 </div>
             </div>
 
+            {/* Barbecue */}
+            <div className="menu-section">
+                <h2 className="menu-sub-header kodchasan-7">Korean BBQ</h2>
+                <div className="header-underline"></div>
+                <div className="row menu-row no-gutters">
+                    <div className="col-10 offset-1 col-lg-4 offset-lg-3">
+                        <p className="dish-name kodchasan-3"><strong>Beef Bulgogi</strong></p>
+                        <p className="dish-desc">Tender beef slices marinated in a delicious sauce</p>
+                    </div>
+                    <div className="col-lg-1">
+                        <p className="dish-price">£12.99</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     )

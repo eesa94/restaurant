@@ -6,7 +6,7 @@ const Home = () => {
 
 
   return (
-    <div className="section-container home">
+    <div className="home-container">
       <Carousel />
       <div className="carousel-overlay">
         <h1 className="carousel-header kodchasan-7 text-white">Award-winning, authentic Korean cuisine</h1>
