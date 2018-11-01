@@ -27,24 +27,24 @@ const Contact = () => {
                     <div className="col-8 offset-2 col-lg-5 offset-lg-2 mb3">
                         <p className="kodchasan-7 mb3">Get in touch using the form below</p>
                         <form>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" aria-describedby="nameHelp" />
+                            <div className="form-group">
+                                <label htmlFor="name">Name</label>
+                                <input type="text" className="form-control" id="name" aria-describedby="nameHelp" />
                             </div>
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+                            <div className="form-group">
+                                <label htmlFor="email">Email address</label>
+                                <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
                             </div>
-                            <div class="form-group">
-                                <label for="number">Phone Number</label>
-                                <input type="text" class="form-control" id="number" aria-describedby="numberHelp" />
+                            <div className="form-group">
+                                <label htmlFor="number">Phone Number</label>
+                                <input type="text" className="form-control" id="number" aria-describedby="numberHelp" />
                             </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" id="message" rows="5" style={{resize: "none"}}></textarea>  
+                            <div className="form-group">
+                                <label htmlFor="message">Message</label>
+                                <textarea className="form-control" id="message" rows="5" style={{resize: "none"}}></textarea>  
                             </div>
                             <div className="text-center">
-                                <button type="submit" class="btn btn-submit kodchasan-5">Submit</button>
+                                <button type="submit" className="btn btn-submit kodchasan-5">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -70,6 +70,16 @@ const Contact = () => {
                             <p className="kodchasan-5 address">Restaurant Quarter</p>
                             <p className="kodchasan-5 address">SE10 FDD</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="component-section">
+                <h2 className="sub-header kodchasan-7">Opening Hours</h2>
+                <div className="header-underline"></div>
+                <div className="row no-gutters">
+                    <div className="col-10 offset-1 col-lg-8 offset-lg-2">
+                        <p className="kodchasan-3">We are open 7 days a week, 11am - 10pm</p>
                     </div>
                 </div>
             </div>
