@@ -40,7 +40,9 @@ const About = () => {
                         <p className="kodchasan-3">
                         <span className="brand-tagline font-italic kodchasan-5">Taste Korea</span> is our motto. The entire Seoul Food. brand is centered around providing the most authentic taste of Korea that we possibly can. Everything from our ingredients to the restaurant environment is carefully designed to ensure that customers enjoy their experience.
                         </p>
-                        <p className="kodchasan-3"></p>
+                        <p className="kodchasan-3">Check out our
+                            <a href="/menu" className="menu-link"> menu </a>  
+                        to see how you can get your taste of Korea.</p>
                     </div>
                 </div>
             </div>

@@ -185,6 +185,15 @@ p {
 }
 
 
+/* About component */
+.menu-link {
+  color: #2db7c3;
+  transition: 0.3s;
+}
+
+.menu-link:hover {
+  color: black;
+}
 
 /* Menu component */
 .menu-row {
@@ -207,6 +216,38 @@ p {
 .dish-desc,
 .dish-price {
   font-size: 2rem;
+}
+
+
+/* Contact component */
+form {
+  padding: 25px 20px;
+  border: 3px solid #2db7c3;
+}
+
+label,
+.form-control {
+  font-size: 1.4rem;
+}
+
+.form-control:focus {
+  border-color: #2db7c3;
+  box-shadow: none;
+}
+
+.btn-submit {
+  font-size: 1.6rem;
+  background-color: #fff;
+  border: 2px solid #f5dd44;
+}
+
+.btn-submit:hover {
+  background-color: #f5dd44;
+  border: 2px solid #f5dd44;
+}
+
+.address {
+  margin-left: 20px;
 }
 
 
