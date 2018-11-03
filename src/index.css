@@ -204,7 +204,7 @@ p {
 
 .carousel-overlay {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 10%;
   right: 10%;
 }
@@ -328,7 +328,7 @@ footer {
   }
 
   .mobile-menu {
-    width: 400px;
+    width: 300px;
   }
 }
 
