@@ -50,7 +50,7 @@ class Navbar extends Component {
                         <p className="brand-tagline text-right font-italic kodchasan-5">Taste Korea</p>
                         <div className="underline"></div>
                     </div>
-                    <button className="btn nav-toggle-btn" onClick={this.navOpen}>Click</button>
+                    <button className="btn nav-toggle-btn" onClick={this.navOpen}><i class="fas fa-bars"></i></button>
                 </nav>
 
 

@@ -172,6 +172,14 @@ p {
   font-size: 1.6rem;
 }
 
+.nav-toggle-btn {
+  background-color: #2db7c3;
+}
+
+.fas {
+  font-size: 1.8rem;
+}
+
 
 /* Carousel component */
 #homeCarousel,
@@ -196,7 +204,7 @@ p {
 
 .carousel-overlay {
   position: absolute;
-  top: 5%;
+  top: 20%;
   left: 10%;
   right: 10%;
 }
@@ -289,10 +297,6 @@ footer {
 
 /* Media Queries */
 @media (min-width: 576px) {
-  .carousel-overlay {
-    top: 15%;
-    left: 10%;  
-  }
   
   .carousel-header {
     font-size: 4rem;
