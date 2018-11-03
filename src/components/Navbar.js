@@ -4,17 +4,28 @@ import { Link, NavLink, withRouter } from 'react-router-dom';
 class Navbar extends Component {
     constructor() {
         super();
-        this.state = { navOpen: false};
+        this.state = { displayNav: false};
         this.navOpen = this.navOpen.bind(this);
+        this.navHide = this.navHide.bind(this);
     }
 
-    navOpen = () => {
-
+    navOpen = (e) => {
+        e.preventDefault();
         this.setState({
-            navOpen: true
+            displayNav: true
+        }, () => {
+            document.addEventListener('click', this.navHide);
         });
     }
-    
+
+    navHide = () => {
+        this.setState({
+            displayNav: false
+        }, () => {
+            document.removeEventListener('click', this.navHide);
+        });
+    }   
+
     render() {
         return (
             <div>
@@ -44,9 +55,14 @@ class Navbar extends Component {
 
 
                 { 
-                    this.state.navOpen ? (               
+                    this.state.displayNav ? (               
                         <div className="mobile-menu">
-                            <p>hey dere</p>
+                            <ul className="link-list">
+                                <li><Link to="/" className="link">Home</Link></li>
+                                <li><NavLink to="/about" className="link">About</NavLink></li>
+                                <li><NavLink to="/menu" className="link">Menu</NavLink></li>
+                                <li><NavLink to="/contact" className="link">Contact</NavLink></li>
+                            </ul>
                         </div>
                     ) : (
                         null

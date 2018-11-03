@@ -109,12 +109,13 @@ p {
 .mobile-menu {
   position: fixed;
   top: 0;
-  left: -80vw;
+  left: 0;
   height: 100vh;
-  width: 80vw;
+  width: 50vw;
   margin-top: 100px;
   background-color: #2db7c3;
   z-index: 15;
+  transition: 0.3s;
 }
 
 .navigation {
@@ -146,6 +147,10 @@ p {
 }
 
 .link-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   top: 50px;
   list-style-type: none;
@@ -154,7 +159,7 @@ p {
 }
 
 .link {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: white;
   transition: 0.3s;
 }
@@ -317,6 +322,10 @@ footer {
   .section-header {
     top: 70px;
   }
+
+  .mobile-menu {
+    width: 400px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -325,6 +334,18 @@ footer {
   .footer {
     margin-left: 22vw;
     width: 78vw;
+  }
+
+  .link-list {
+    position: relative;
+    top: 50px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }  
+
+  .link {
+    font-size: 4rem;
   }
 
   .section-container {
