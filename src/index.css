@@ -34,14 +34,14 @@ p {
 
 .section-header {
   position: sticky;
-  top: 100px;
+  /* top: 100px; */
   width: 220px;
   margin: -30px auto 60px;
   padding: 8px 5px;
   font-size: 3.5rem;
   color: black;
   background-color: #f5dd44;
-  z-index: 11;
+  z-index: 9;
 }
 
 .component-section {
@@ -325,6 +325,7 @@ footer {
 @media (min-width: 768px) {
   .section-header {
     top: 70px;
+    z-index: 11
   }
 
   .mobile-menu {
