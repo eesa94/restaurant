@@ -34,7 +34,7 @@ p {
 
 .section-header {
   position: sticky;
-  top: 70px;
+  top: 100px;
   width: 220px;
   margin: -30px auto 60px;
   padding: 8px 5px;
@@ -104,7 +104,17 @@ p {
   padding: 10px 20px;
   z-index: 10;
   background-color: #2db7c3;
+}
 
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -80vw;
+  height: 100vh;
+  width: 80vw;
+  margin-top: 100px;
+  background-color: #2db7c3;
+  z-index: 15;
 }
 
 .navigation {
@@ -301,6 +311,12 @@ footer {
     margin-bottom: 3px;
   }  
 
+}
+
+@media (min-width: 768px) {
+  .section-header {
+    top: 70px;
+  }
 }
 
 @media (min-width: 992px) {
