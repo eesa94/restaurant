@@ -1,6 +1,7 @@
 import React from 'react';
 import chefs from '../img/chefs.jpg'
 import Footer from './Footer'
+import { NavLink } from 'react-router-dom'
 
 const About = () => {
     const banner = {
@@ -40,7 +41,7 @@ const About = () => {
                         <strong><em>Taste Korea</em></strong> is our motto. The entire Seoul Food. brand is centered around providing the most authentic taste of Korea that we possibly can. Everything from our ingredients to the restaurant environment is carefully designed to ensure that customers enjoy their experience.
                         </p>
                         <p className="kodchasan-3">Check out our
-                            <a href="/menu" className="menu-link"> menu </a>  
+                            <NavLink to='/menu' className="menu-link"> menu </NavLink>
                         to see how you can get your taste of Korea.</p>
                     </div>
                 </div>
