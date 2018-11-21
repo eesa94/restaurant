@@ -406,3 +406,18 @@ footer {
     top: 30%;
   }
 }
+
+@media (max-height: 600px) {
+  .brand {
+    font-size: 3rem;
+  }
+
+  .link-list {
+    top: 20px;
+  }
+
+  .link {
+    font-size: 3rem;
+  }
+
+}
